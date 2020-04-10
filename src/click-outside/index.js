@@ -17,7 +17,6 @@ const ClickOutside = ({
     };
   }, []);
 
-  const Tag = as;
   const el = useRef(null);
 
   const handle = (e) => {
@@ -30,11 +29,7 @@ const ClickOutside = ({
     else onClickInside();
   };
 
-  return (
-    <Tag ref={el} {...props}>
-      {children}
-    </Tag>
-  );
+  return React.createElement(as, { ...props, ref: el }, children);
 };
 
 ClickOutside.propTypes = {
