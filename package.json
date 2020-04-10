@@ -1,0 +1,26 @@
+{
+  "name": "sk-react-ui",
+  "version": "1.0.0",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stas-kz/react-ui.git"
+  },
+  "keywords": [
+    "react",
+    "ui"
+  ],
+  "author": "Stanislav Ussanov <s.ussanov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stas-kz/react-ui/issues"
+  },
+  "homepage": "https://github.com/stas-kz/react-ui#readme"
+}
